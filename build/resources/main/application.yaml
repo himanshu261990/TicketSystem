@@ -1,0 +1,25 @@
+springdoc:
+  swagger-ui:
+    operationsSorter: alpha
+  api-docs:
+    path: /api-docs
+spring:
+  main:
+    allow-bean-definition-overriding: 'true'
+  output:
+    ansi:
+      enabled: always
+  banner:
+    location: banner.txt
+  datasource:
+    url: jdbc:h2:mem:ticketDB
+    username: cloudbees
+    password: cloudbees
+    driverClassName: org.h2.Driver
+    jpa:
+      spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+server:
+  servlet:
+    context-path: /api
+  port: 8080
+

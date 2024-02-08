@@ -1,0 +1,19 @@
+springdoc:
+  swagger-ui:
+    operationsSorter: alpha
+  api-docs:
+    path: /api-docs
+spring:
+  main:
+    allow-bean-definition-overriding: 'true'
+  output:
+    ansi:
+      enabled: always
+  banner:
+    location: banner.txt
+
+server:
+  servlet:
+    context-path: /api
+  port: 8080
+
