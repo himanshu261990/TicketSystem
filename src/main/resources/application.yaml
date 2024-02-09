@@ -17,3 +17,7 @@ server:
     context-path: /api
   port: 8080
 
+ticket:
+  totalNumberOfSections: 2
+  totalNumberOfSeatsPerSection: 10
+

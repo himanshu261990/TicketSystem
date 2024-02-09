@@ -1,0 +1,7 @@
+spring:
+  main:
+    allow-bean-definition-overriding: 'true'
+
+ticket:
+  totalNumberOfSections: 2
+  totalNumberOfSeatsPerSection: 10
