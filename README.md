@@ -1,7 +1,7 @@
 # TicketSystem
 Ticket system for cloudbees
 
-Open the project in intellij or any IDE
+Open the project in intellij or any other IDE
 Start the application
 
 Go to swagger URL and test the application
